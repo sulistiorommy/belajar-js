@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>looping menggunakan for dan while
+        
+    </title>
+</head>
+<body>
+<p>Percobaan membuat while dan for
+
+</p>    
+
+
+
+
+<script>
+
+// LATIHAN ANGKOT 1
+// let angkot = 1;
+// while (angkot <= 10){
+// console.log ('angkot NO.'+angkot + ' beroprasi dengan baik');
+// angkot ++;
+// }
+   
+// for ( let angkot = 1 ; angkot <= 10; angkot++) {
+// console.log ('angkot NO.'+angkot + ' beroprasi dengan baik');
+// }
+
+// let angka = 1
+// while (angka <= 10) {
+//     console.log ('Sekarang berada pada nomer antir ' + angka );
+//     angka ++;
+// }
+
+// LATIHAN ANGKOT 2
+// var jmlAngkot = 10 ;
+// var angkotBeroprasi = 6;
+// var noAngkot = 1;
+
+// while (noAngkot <= angkotBeroprasi) {
+//     console.log ('angkot No. ' + noAngkot + ' beroprasi dengan baik');
+//     noAngkot ++;
+// }
+
+// for (noAngkot; noAngkot <= jmlAngkot; noAngkot ++){
+//     console.log ('angkot No. ' + noAngkot + ' sedang tidak beroprasi')
+// }
+
+
+// //laithan angkot 4
+// let jmlAngkot = 15 ;
+// let angkotBeroprasi = 13;
+// let noAngkot = 1;
+
+// for(noAngkot; noAngkot <= jmlAngkot; noAngkot++){
+//     if (noAngkot <= angkotBeroprasi) {console.log ('angkot No. ' +noAngkot+ ' beroprasi dengan baik');}
+//     else {console.log('angkot No. '+ noAngkot+ ' sedang tidak beroprasi');}
+// }
+
+
+//latihan angkot 5 cara pertama
+// let jmlAngkot = 10 ;
+// let angkotBeroprasi = 6;
+// let noAngkot = 1;
+// const kejarSrotan = [5,8,10];
+// const angkotBaru = 10
+
+// for(noAngkot; noAngkot <= jmlAngkot; noAngkot++){
+//      if (kejarSrotan.includes(noAngkot)){
+//         console.log ('angkot No. ' +noAngkot+ ' lembur kejar storan');
+//     } else if (noAngkot <= angkotBeroprasi) {console.log ('angkot No. ' +noAngkot+ ' beroprasi dengan baik');
+//     } else {console.log('angkot No. '+ noAngkot+ ' sedang tidak beroprasi');
+
+//     }
+// }
+
+
+//latihan angkot 5 cara kedua
+// let jmlAngkot = 10 ;
+// let angkotBeroprasi = 6;
+// let noAngkot = 1;
+// const kejarSrotan = [5,8,10];
+// const angkotBaru = 10
+
+// for(noAngkot; noAngkot <= jmlAngkot; noAngkot++){
+//      if (noAngkot === 5 || noAngkot === 8 || noAngkot === 10){
+//         console.log ('angkot No. ' +noAngkot+ ' lembur kejar storan');
+//     } else if (noAngkot <= angkotBeroprasi) {console.log ('angkot No. ' +noAngkot+ ' beroprasi dengan baik');
+//     } else {console.log('angkot No. '+ noAngkot+ ' sedang tidak beroprasi');
+
+//     }
+// }
+
+//latihan angkot 5 cara ketiga
+// let jmlAngkot = 10 ;
+// let angkotBeroprasi = 6;
+// let noAngkot = 1;
+// const kejarSrotan = [5,8,10];
+// const angkotBaru = 10
+
+// for(noAngkot; noAngkot <= jmlAngkot; noAngkot++){
+//      if (noAngkot <= angkotBeroprasi && noAngkot !== 5){
+//         console.log ('angkot No. ' +noAngkot+ ' beroprasi dengan baik');
+//     } else if (noAngkot === 5 || noAngkot === 8 || noAngkot === 10) {console.log ('angkot No. ' +noAngkot+ ' lembur kejar storan');
+//     } else {console.log('angkot No. '+ noAngkot+ ' sedang tidak beroprasi');
+
+//     }
+// }
+
+
+//latihan angkot 5 cara keempat
+// let jmlAngkot = 10 ;
+// let angkotBeroprasi = 6;
+// let noAngkot = 1;
+// const kejarSrotan = [5,8,10];
+// const angkotBaru = 10
+
+// for(noAngkot; noAngkot <= jmlAngkot; noAngkot++){
+//      if (noAngkot <= angkotBeroprasi && noAngkot !== 5){
+//         console.log ('angkot No. ' +noAngkot+ ' beroprasi dengan baik');
+//     } else if (kejarSrotan.includes(noAngkot)) {console.log ('angkot No. ' +noAngkot+ ' lembur kejar storan');
+//     } else {console.log('angkot No. '+ noAngkot+ ' sedang tidak beroprasi');
+
+//     }
+// }
+
+
+//latihan angkot 5.1 cara pertama
+//let jmlAngkot = 15 ;
+// let angkotBeroprasi = [9,12,14];
+// let noAngkot = 1;
+// const kejarSrotan = [5,8,10];
+// const angkotRusak = [3, 4];
+
+// for(noAngkot; noAngkot <= jmlAngkot; noAngkot++){
+//      if (kejarSrotan.includes(noAngkot)){
+//         console.log ('angkot No. ' +noAngkot+ ' lembur kejar storan');
+//     } else if (angkotRusak.includes(noAngkot)) {
+//         console.log ('angkot No. '+noAngkot+ ' sedang dalam perbaikan')
+//     } else if (angkotBeroprasi.includes(noAngkot)) {console.log ('angkot No. ' +noAngkot+ ' beroprasi dengan baik');
+//     } else {console.log('angkot No. '+ noAngkot+ ' sedang tidak beroprasi');
+
+//     }
+// }
+
+
+
+// latiahn 6 swift
+// let percobaanSwitch = prompt ('masukan nomer yang telah dikirmimkan !!');
+
+// switch (percobaanSwitch){
+//     case '334' :
+//         alert ('kode yang anda masukan benar')
+//         break;
+//     case '123':
+//         alert ('kode yang anda masukan benar')
+//         break;
+//     case '456' :
+//         alert ('kode yang anda masukan benar')
+//         break;
+//     case '111' :
+//         alert ('kode yang anda masukan benar')
+//         break;
+//     default :
+//         alert ('perhatikan kode yang anda masukan !!! \ninput dengan benar !!!')
+//         break;
+// }
+
+
+// latiah 7 looping bersarang 
+// let s = '';
+
+// for (i = 1; i <= 10; i++){
+//     for (a = 1; a <= 5; a++ ){
+//         s += '*';
+//         }
+// s += '*';
+// s += '\n';   
+    
+// }
+// console.log (s);
+
+// latiah 8 ngulik looping
+// let s = '';
+
+// for ( let a = 10 ; a >= 1 ; a-- ) {
+//     for ( let b = 1 ; b <= a ; b++ ){
+//         s += '*';
+//     }
+//     s +='\n';
+// } 
+// console.log (s);
+
+// let s = '';
+// let z = '';
+
+// for (let a = 1; a <= 10 ; a++) {
+// s +='*';
+// }
+
+// console.log (s);
+// for ( let c = 10; c > b; c--) {
+//     for (let d = 0; d <= c; d ++){
+//     s += '*';
+//     //s += '\n';
+//     }}
+
+// console.log (s);
+
+
+</script>
+</body>
+</html>
