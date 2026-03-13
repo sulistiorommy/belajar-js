@@ -58,6 +58,7 @@ obj.alo = function () {
     console.log ('halo');
 }
 obj.alo ();
+console.log (obj);
 // maka akan menampilkan {halo:f} dan halo
 
 

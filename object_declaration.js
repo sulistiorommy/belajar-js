@@ -61,6 +61,7 @@ function Mahasiswa (nama, npm, prodi, email, tauhnMauk){
     this.prodi = prodi;
     this.npm = npm;
     this.email = email;
+    this.tahunMasuk = tauhnMauk;
     // dan return juga sudah di buatkan otomatis untuk memanggil variabel.
 }
 // penggunaan object constructor ini dianjurnak karena lebih efektif dalam penggunaannya data yang banyak dibandingkan dengan declaration
